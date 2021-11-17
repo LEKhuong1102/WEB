@@ -299,7 +299,7 @@ div .logo{
     margin: 0;
 }
 .star {
-    background-color:rgb(172, 240, 225);    
+    background-color:#acf0e1;    
     transform: translate(30%, -15px);
     width: 60%;
 }
@@ -472,7 +472,7 @@ div .logo{
     display: none;
 }
 /* REPONSIVE FOR WEB */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)  and ( min-width: 450px) {
     .sp {
         margin: 2%;
         display: inline-block;
@@ -580,5 +580,153 @@ div .logo{
         position: absolute;
         left: 55%;
         top: 55%;
+    }
+}
+
+@media only screen and (max-width: 420px ){
+    .between{
+        height: 3400px;
+    }
+    .header-1{
+        display: none;
+    }
+    .img{
+        margin: 20px 0 0 30px;
+    }
+    .giohang{
+        margin: 28px 0 0 65px;
+    }
+    .search {   
+        position: absolute;
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .search select {
+        padding: 6px 5px 2px 5px;
+        outline-style: none;
+        border: none;
+        border-radius: 20px 0 0 20px;
+        position: relative;
+        right: -5px;
+        border-right: 1px
+        solid rgba(102, 101, 101, 0.4);
+        font-size: 10px;
+    }
+    .search input {
+        outline-style: none;
+        border: none;
+        padding: 5px 17px 5px 5px;
+        height: 24px;
+        width: 125px;
+    }
+    .search button {
+        padding: 0 15px;
+        position: relative;
+        left: -5px;
+    }
+    /* --------- */
+    .list{
+        flex-direction: column ;
+        display: none;
+        background-color: rgb(2, 0, 0);
+    }
+    .list li{
+        padding: 10px;
+        color: #fff;
+    }
+    .bar{
+        display: block;
+    }
+    /* .......... */
+    .menu {
+        padding: 0;
+        width: 100%;
+    }
+    .menu a{
+        font-size: 12px;
+        padding:2px 0;
+        margin: 0;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid rgba(22, 22, 22,0.2 )
+    }
+    /* --------- */
+    .th-list{
+        position: absolute;
+        top: 2.5%;
+        left: 70%;
+    }
+    .th-list a i{
+        font-size: 15px;
+    }
+    /* Sửa danh mục sản phẩm */
+    .layout3{
+        height: 2850px;
+    }
+    .sp {
+        width: 150px;
+        height: 300px;
+    }
+    .sp div img {
+        width: 120px;
+        height: 100px;
+    }
+    .sp div:nth-child(2)>h5 {
+        font-size: 11px;
+        padding-top: 0;
+    }
+    .sp div:nth-child(2)>h4 {
+        font-size: 15px;
+    }
+    .sp div:nth-child(2)>h4>p {
+        padding: 3px 0 0 4px
+    }
+    #sp-5, #sp-8, #sp-9 {
+        margin-top: 10px;
+        transform: translateY(-9%);
+    }
+    .danhgia form i{
+        margin: 0;
+    }
+    /* PAGE */
+    .page{
+        position: absolute;
+        top: 80%;
+        left: 0;
+    }
+ 
+    .input-email>p{
+        font-size: 17px;
+        padding-top: 3px;
+    }
+    .input-email h4{
+        font-size: 25px;
+    }
+    .form{
+        position: absolute;
+        
+    }
+    .form input {
+        padding: 5px 50px 5px 10px;
+        border-radius: 20px;
+    }
+    .form button{
+        margin: 5px 60px;
+        padding: 5px 10px;
+        border-radius: 0;
+    }
+    .icon {
+        width: 250px;
+        margin: 30px 20px;
+    }
+    .cardd{
+        transform: translate(0, 0);
+    }
+    .cardd i{
+        font-size: 62px;
+    }
+    .select-2 div:nth-child(2){
+        display: none;
     }
 }
